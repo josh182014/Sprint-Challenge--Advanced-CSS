@@ -4,7 +4,18 @@
 }
 .abot {
   text-decoration: none;
-  color: black;
+  color: #22283A;
+}
+.main-btn {
+  background-color: #22283A;
+  border: none;
+  color: white;
+  padding: 9px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -186,7 +197,7 @@ a {
 }
 .header a {
   text-decoration: none;
-  color: black;
+  color: #22283A;
   margin: 15px;
 }
 footer {
@@ -246,6 +257,17 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn {
+  background-color: #22283A;
+  border: none;
+  color: white;
+  padding: 9px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
 }
 .home .walk .walk-img {
   width: 46%;
