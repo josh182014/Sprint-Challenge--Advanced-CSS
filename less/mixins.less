@@ -1,1 +1,34 @@
 // Mixins Here
+
+.flexbot {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.abot {
+    text-decoration: none;
+    color: @btn-bg-color;
+}
+
+.main-btn(@width: auto, @btn-padding: 9px 20px){
+    background-color: @btn-bg-color;
+    border: none;
+    color: white;
+    padding: @btn-padding;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    width: @width;
+
+    &:hover {
+        color: @btn-bg-color;
+        background-color: white;
+    }
+
+    @media @phone {
+        width: 100%;
+        padding: 20px 20px;
+    }
+}
